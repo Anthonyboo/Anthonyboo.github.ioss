@@ -288,6 +288,8 @@ p {
 
 .main {
   padding: 47px 0; }
+  .main1 {
+    padding: 0, 0; }
   .main .content {
     padding: 25px 15px 23px;
     font-size: 1.3rem;
@@ -316,7 +318,7 @@ p {
     padding: 32px 0 0; }
 
 .area {
-  padding: 77px 0 47px;
+  padding: 0;
   background: #f4f4f4; }
   .area h2 {
     margin: 0 0 28px;
@@ -349,6 +351,10 @@ p {
   -moz-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1; }
+
+  .round{
+    border-radius: 100px;
+  }
 
 .visual-list {
   margin: 0 -25px -40px -15px;
